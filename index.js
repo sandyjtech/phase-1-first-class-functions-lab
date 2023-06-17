@@ -1,7 +1,7 @@
 // Code your solution in this file!
 //he assigned function should take one argument, an array containing the names of Scuber's drivers, and return a new array containing the last two drivers in the array:
-const returnFirstTwoDrivers = function (drivers) {
-  drivers = ["Sandra", "Alex", "Midnight"];
+const returnFirstTwoDrivers = function (drivers = ["Sandra", "Alex", "Midnight"]) {
+
   return drivers.slice(0, 2);
 };
 
